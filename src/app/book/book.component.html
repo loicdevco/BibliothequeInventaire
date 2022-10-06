@@ -1,0 +1,8 @@
+<div class="partage-image-card" [ngClass]="{ snapped: buttonText === '😈 unread 😈'}">
+    <h2>{{ livre.title | titlecase }}</h2>
+    <div class="img-style">
+        <img src="{{ livre.imageUrl }}">
+    </div>
+
+    <button class="btn-color" (click)="onViewImage()">APERCU</button>
+</div>

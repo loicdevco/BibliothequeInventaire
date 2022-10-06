@@ -1,0 +1,95 @@
+.form-card, .face-snap-card {
+
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: lightgray 4px 4px 20px;
+    background-color: #730800;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .face-snap-card {
+    img {
+      width: 30%;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    p {
+      color:white;
+      font-weight: 300;
+      font-size: 16px;
+    }
+  }
+  //...
+    
+    .form-group {
+      margin: 10px auto;
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+   
+    .action-buttons {
+      width: 100%;
+    }
+    
+    h2 {
+        text-shadow: black;
+        color: white;
+        font-size: 30px;
+    }
+
+    label {
+      color: white;
+      font-size: 20px;
+    }
+    
+    button {
+      display: block;
+      margin: 20px auto;
+      text-decoration: none;
+      padding: 10px;
+      font-family: arial;
+      font-size: 1em;
+      color: #FFFFFF;
+      background-color: #c00000;
+      border-radius: 23px;
+      -webkit-border-radius: 23px;
+      -moz-border-radius: 23px;
+      box-shadow: -13px 3px 20px #444444;
+      -webkit-box-shadow: -13px 3px 20px #444444;
+      -moz-box-shadow: -13px 3px 20px #444444;
+      }
+      
+      
+      button:hover {
+      padding: 10px;
+      background-color: #990000;
+      border-radius: 24px;
+      -webkit-border-radius: 24px;
+      -moz-border-radius: 24px;
+      border: 4px solid #ffffff;
+      box-shadow: 1px 1px 4px #777777;
+      -webkit-box-shadow: 1px 1px 4px #777777;
+      -moz-box-shadow: 1px 1px 4px #777777;
+      }
+
+      input, textarea {
+        width: 60%;
+        text-decoration: none;
+        padding: 10px;
+        font-family: arial;
+        font-size: 1em;
+        color: #FFFFFF;
+        background-color: #990000;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        box-shadow: -13px 3px 20px #444444;
+        -webkit-box-shadow: -13px 3px 20px #444444;
+        -moz-box-shadow: -13px 3px 20px #444444;
+        }

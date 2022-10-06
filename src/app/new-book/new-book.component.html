@@ -1,0 +1,32 @@
+<div class="form-card">
+    <h2>Nouveau Livre de Stephen King</h2>
+    <form [formGroup]="livreForm">
+        <div class="form-group">
+            <label for="title">Titre</label>
+            <input type="text" id="title" formControlName="title">
+        </div>
+        <div class="form-group">
+            <label for="resume">Resume</label>
+            <textarea type="text" id="resume" formControlName="resume"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="imageUrl">Url de l'image de couverture</label>
+            <input type="text" id="imageUrl" formControlName="imageUrl">
+        </div>
+        <div class="form-group">
+            <label for="Parution">Date de parution</label>
+            <input type="date" id="Parution" formControlName="Parution">
+        </div>
+        <div class="action-buttons">
+            <button type="submit" (click)="onSubmitForm()" [disabled]="livreForm.invalid">Enregistrer</button>
+        </div>
+    </form>
+</div>
+
+<div class="face-snap-card" *ngIf="livreApercu$ | async as livre">
+    <h2>{{ livre.title | uppercase }}</h2>
+    <p>Mis en ligne {{ livre.dateCreation | date: 'à HH:mm, le d MMMM yyyy' }}</p>
+    <img [src]="livre.imageUrl" [alt]="livre.title">
+    <p *ngIf="livre.resume">{{ livre.resume }}</p>
+    <p *ngIf="livre.Parution">Livre parut le {{ livre.Parution }}</p>
+</div>

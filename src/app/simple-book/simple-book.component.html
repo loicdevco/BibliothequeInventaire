@@ -1,0 +1,15 @@
+<div class="partage-image-card" *ngIf="Livre$ | async as livre" [ngClass]="{ snapped: buttonText === '😈 pas lu 😈'}">
+    <h2>{{ livre.title | titlecase }}</h2>
+    <button class="btn-color" routerLink="/bibliographie">BACK</button>
+    <p>Mis en ligne le {{ livre.dateCreation | date: 'd MMMM yyyy, à HH:mm'}} </p>
+    <div class="img-style">
+        <img [src]="livre.imageUrl" [alt]="livre.title" />
+    </div>
+
+    <p> {{ livre.resume }}</p>
+    <p *ngIf="livre.Parution">Livre parut le {{ livre.Parution }} </p>
+    <p>
+        <button (click)="onAddRead(livre.id)">{{ buttonText }}</button>
+        <span [ngStyle]="{ color: 'rgb(0 ,' + livre.lu * 15 + ', 0)'}">💖 {{ livre.lu }} </span>
+    </p>
+</div>

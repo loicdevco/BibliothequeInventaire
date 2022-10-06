@@ -1,0 +1,24 @@
+{
+  "livres": [
+    {
+      "id": 1,
+      "title": "Carrie",
+      "resume": "Vengeance",
+      "imageUrl": "https://imgs.search.brave.com/T1AtlHCffqGw--fGYhXyuvWmbojQOEBUWlTxvzc7A0E/rs:fit:293:475:1/g:ce/aHR0cDovL3ZpZ25l/dHRlMi53aWtpYS5u/b2Nvb2tpZS5uZXQv/bG9zdHBlZGlhL2lt/YWdlcy8xLzFhL0Nh/cnJpZWJvb2suanBn/L3JldmlzaW9uL2xh/dGVzdD9jYj0yMDA2/MTAwNTAzMzUxMQ",
+      "dateCreation": "Mon Dec 13 2021 14:51:42 GMT+0100 (Central European Standard Time)",
+      "snaps": 89,
+      "Parution": "05/04/1974",
+      "lu": 0,
+      "like": -1
+    },
+    {
+      "title": "SHINING",
+      "resume": "Quand on propose à Jack Torrance, ancien professeur et ancien alcoolique, un poste de gardien pour l'hiver à l'hôtel Overlook dans les montagnes du Colorado, il croit tenir là une chance de se racheter aux yeux de sa famille.\nIl s'y installe avec Wendy, sa femme, et leur fils Danny, en espérant profiter de cette occasion pour écrire la pièce de théâtre qui le révélera au monde. Mais les démons de l'hôtel trouvent en Jack une proie presque trop facile pour poursuivre leur œuvre de mal, et il faudra le courage et le sixième sens étrange de son fils pour sauver in extremis ce qui pourra l'être.\nCar Danny possède ce don de lumière de même que l'ancien cuisinier de l'hôtel, Dick Hallorann, et la conjugaison des deux fera reculer les forces du mal. Pendant un certain temps...\nPorté à l'écran par Kubrick avec Jack Nicholson dans le rôle principal, \"Shining\" est avant tout l'histoire de la lente déchéance d'un homme rongé par la haine.",
+      "imageUrl": "https://imgs.search.brave.com/A2oNjJfa10wg1I36YspHwkpLnJ4-6X39vMe8JcHhn3k/rs:fit:375:600:1/g:ce/aHR0cDovL3d3dy5p/c2ZkYi5vcmcvd2lr/aS9pbWFnZXMvOS85/NC9USFNITk5HUkpK/MTk5My5qcGc",
+      "Parution": "1977-01-28",
+      "like": null,
+      "dateCreation": "2022-10-06T21:19:53.410Z",
+      "id": 2
+    }
+  ]
+}
